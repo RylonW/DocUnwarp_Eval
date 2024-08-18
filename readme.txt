@@ -13,7 +13,9 @@ You must change one line in order to compile correctly. On line 5 of project.h, 
 
 -------------------------------------------------------------
 
-Run demo.m in MATLAB and you will see how SIFT flow works.
+1.mex mexDenseSIFT.cpp Matrix.cpp Vector.cpp
+2.mex mexDiscreteFlow.cpp BPFlow.cpp Stochastic.cpp
+3.Run demo.m in MATLAB and you will see how SIFT flow works.
 
 Enjoy!
 
